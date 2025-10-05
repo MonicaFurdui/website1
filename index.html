@@ -50,10 +50,11 @@
         }
 
         .logo {
-            width: 200px;
-            height: 200px;
+            width: 300px;
+            height: 300px;
             margin: 0 auto 2rem;
             animation: fadeIn 1.5s ease-out;
+            display: block;
         }
 
         h1 {
@@ -331,6 +332,10 @@
             .services-grid {
                 grid-template-columns: 1fr;
             }
+            .logo {
+                width: 250px;
+                height: 250px;
+            }
         }
     </style>
 </head>
@@ -339,11 +344,7 @@
     <section class="parallax-section hero" id="hero">
         <div class="parallax-bg" id="heroBg"></div>
         <div class="hero-content">
-            <svg class="logo" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-                <path d="M100 280 L200 120 L300 280 Z" fill="#1a3a2e"/>
-                <path d="M120 280 L200 150 L280 280 Z" fill="#2d5a47"/>
-                <path d="M150 280 L200 190 L250 280 Z" fill="#ff7742"/>
-            </svg>
+            <img src="logo.png" alt="Green Mountain AI Logo" class="logo">
             <h1>Transform Your Business with <span class="highlight">AI</span></h1>
             <p class="subtitle">Strategic AI consulting for small businesses ready to innovate</p>
             <a href="#contact" class="cta-button">Get Started</a>
